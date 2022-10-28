@@ -1,0 +1,50 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #004861;
+
+}
+
+.pokedex {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    background: url(../images/phone.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    margin-left: 35vw;
+}
+
+.number {
+    margin-top: 10rem;
+    margin-left: 24rem;
+    color: white;
+}
+
+.image {
+    margin-left: 5rem;
+    height: 20rem;
+    width: 20rem;
+}
+
+.name {
+    margin-top: 2rem;
+    margin-left: 4rem;
+    color: white;
+    font-size: 2rem;
+}
+
+.type {
+    margin-top: 2rem;
+    margin-left: 4rem;
+    color: white;
+    font-size: 2rem;
+
+}
