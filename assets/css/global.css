@@ -31,7 +31,7 @@ body {
 
 .image {
     margin-left: 5rem;
-    height: 20rem;
+    height: 18rem;
     width: 20rem;
 }
 
@@ -61,6 +61,7 @@ body {
     margin-left: 9rem;
     color: white;
     font-size: 5rem;
+
 }
 
 #iconLeft, #iconRight{
