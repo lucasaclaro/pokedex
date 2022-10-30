@@ -5,10 +5,11 @@
     padding: 0;
 }
 
-body{
-    background: #004861;
+body {
+    background: #004861;  
 
 }
+
 
 .pokedex {
     display: flex;
@@ -19,7 +20,7 @@ body{
     background-size: contain;
     height: 100%;
     width: 100%;
-    margin-left: 35vw;
+    margin-left: 35%;
 }
 
 .number {
@@ -47,4 +48,37 @@ body{
     color: white;
     font-size: 2rem;
 
+}
+
+.weight {
+    margin-top: 2rem;
+    margin-left: 4rem;
+    color: white;
+    font-size: 2rem;
+}
+
+.icons {
+    margin-left: 9rem;
+    color: white;
+    font-size: 5rem;
+}
+
+#iconLeft, #iconRight{
+    margin-right: 1rem;
+    background-color:rgba(26, 24, 24, 0.788);
+    border-radius: 0.2rem;
+    padding: .2rem 1rem;
+}
+
+button {
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: white;
+}
+
+@media screen and (max-width: 992px) {
+    .pokedex {
+        margin-left: 4vw;
+    }
 }
